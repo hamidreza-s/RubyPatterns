@@ -1,4 +1,4 @@
-class PlainTextFormatter < Formatter
+class PlainTextFormatter
 	# strategy class implemention
 	def output_report context
 		puts '***** #{context.title} *****'

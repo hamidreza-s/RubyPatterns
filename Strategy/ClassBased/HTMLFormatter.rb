@@ -1,4 +1,4 @@
-class HTMLFormatter < Formatter
+class HTMLFormatter
 	# strategy class implemention
 	def output_report context
 		puts '<html>'
